@@ -1,0 +1,340 @@
+[2022-11-23 17:49:26 +0500] [12317] [INFO] Starting gunicorn 20.1.0
+[2022-11-23 17:49:27 +0500] [12317] [INFO] Listening at: http://127.0.0.1:8000 (12317)
+[2022-11-23 17:49:27 +0500] [12317] [INFO] Using worker: sync
+[2022-11-23 17:49:27 +0500] [12370] [INFO] Booting worker with pid: 12370
+[2022-11-23 17:49:27 +0500] [12377] [INFO] Booting worker with pid: 12377
+[2022-11-23 17:49:27 +0500] [12378] [INFO] Booting worker with pid: 12378
+[2022-11-23 17:49:27 +0500] [12380] [INFO] Booting worker with pid: 12380
+[2022-11-23 17:49:27 +0500] [12382] [INFO] Booting worker with pid: 12382
+[2022-11-23 18:03:19 +0500] [12317] [INFO] Handling signal: term
+[2022-11-23 18:03:19 +0500] [12377] [INFO] Worker exiting (pid: 12377)
+[2022-11-23 18:03:19 +0500] [12370] [INFO] Worker exiting (pid: 12370)
+[2022-11-23 18:03:19 +0500] [12380] [INFO] Worker exiting (pid: 12380)
+[2022-11-23 18:03:19 +0500] [12382] [INFO] Worker exiting (pid: 12382)
+[2022-11-23 18:03:19 +0500] [12378] [INFO] Worker exiting (pid: 12378)
+[2022-11-23 18:03:20 +0500] [12317] [INFO] Shutting down: Master
+[2022-11-23 18:04:15 +0500] [938] [INFO] Starting gunicorn 20.1.0
+[2022-11-23 18:04:15 +0500] [938] [INFO] Listening at: http://127.0.0.1:8000 (938)
+[2022-11-23 18:04:15 +0500] [938] [INFO] Using worker: sync
+[2022-11-23 18:04:15 +0500] [1063] [INFO] Booting worker with pid: 1063
+[2022-11-23 18:04:15 +0500] [1064] [INFO] Booting worker with pid: 1064
+[2022-11-23 18:04:15 +0500] [1065] [INFO] Booting worker with pid: 1065
+[2022-11-23 18:04:15 +0500] [1066] [INFO] Booting worker with pid: 1066
+[2022-11-23 18:04:15 +0500] [1067] [INFO] Booting worker with pid: 1067
+[2022-11-23 18:05:07 +0500] [938] [INFO] Handling signal: term
+[2022-11-23 18:05:07 +0500] [1067] [INFO] Worker exiting (pid: 1067)
+[2022-11-23 18:05:07 +0500] [1063] [INFO] Worker exiting (pid: 1063)
+[2022-11-23 18:05:07 +0500] [1064] [INFO] Worker exiting (pid: 1064)
+[2022-11-23 18:05:07 +0500] [1065] [INFO] Worker exiting (pid: 1065)
+[2022-11-23 18:05:07 +0500] [1066] [INFO] Worker exiting (pid: 1066)
+[2022-11-23 18:05:07 +0500] [938] [INFO] Shutting down: Master
+[2022-11-23 18:05:10 +0500] [1771] [INFO] Starting gunicorn 20.1.0
+[2022-11-23 18:05:10 +0500] [1771] [INFO] Listening at: http://127.0.0.1:8000 (1771)
+[2022-11-23 18:05:10 +0500] [1771] [INFO] Using worker: sync
+[2022-11-23 18:05:10 +0500] [1823] [INFO] Booting worker with pid: 1823
+[2022-11-23 18:05:10 +0500] [1830] [INFO] Booting worker with pid: 1830
+[2022-11-23 18:05:10 +0500] [1831] [INFO] Booting worker with pid: 1831
+[2022-11-23 18:05:11 +0500] [1832] [INFO] Booting worker with pid: 1832
+[2022-11-23 18:05:11 +0500] [1833] [INFO] Booting worker with pid: 1833
+[2024-03-26 11:48:25 +0500] [961] [INFO] Starting gunicorn 20.1.0
+[2024-03-26 11:48:25 +0500] [961] [INFO] Listening at: http://127.0.0.1:8000 (961)
+[2024-03-26 11:48:25 +0500] [961] [INFO] Using worker: sync
+[2024-03-26 11:48:25 +0500] [1049] [INFO] Booting worker with pid: 1049
+[2024-03-26 11:48:25 +0500] [1051] [INFO] Booting worker with pid: 1051
+[2024-03-26 11:48:25 +0500] [1052] [INFO] Booting worker with pid: 1052
+[2024-03-26 11:48:25 +0500] [1058] [INFO] Booting worker with pid: 1058
+[2024-03-26 11:48:25 +0500] [1059] [INFO] Booting worker with pid: 1059
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-26 12:01:50 +0500] [961] [INFO] Handling signal: term
+[2024-03-26 12:01:50 +0500] [1049] [INFO] Worker exiting (pid: 1049)
+[2024-03-26 12:01:50 +0500] [1059] [INFO] Worker exiting (pid: 1059)
+[2024-03-26 12:01:50 +0500] [1052] [INFO] Worker exiting (pid: 1052)
+[2024-03-26 12:01:50 +0500] [1058] [INFO] Worker exiting (pid: 1058)
+[2024-03-26 12:01:50 +0500] [1051] [INFO] Worker exiting (pid: 1051)
+[2024-03-26 12:01:51 +0500] [961] [INFO] Shutting down: Master
+[2024-03-26 12:01:57 +0500] [1997] [INFO] Starting gunicorn 20.1.0
+[2024-03-26 12:01:57 +0500] [1997] [INFO] Listening at: http://127.0.0.1:8000 (1997)
+[2024-03-26 12:01:57 +0500] [1997] [INFO] Using worker: sync
+[2024-03-26 12:01:57 +0500] [2051] [INFO] Booting worker with pid: 2051
+[2024-03-26 12:01:57 +0500] [2052] [INFO] Booting worker with pid: 2052
+[2024-03-26 12:01:57 +0500] [2053] [INFO] Booting worker with pid: 2053
+[2024-03-26 12:01:58 +0500] [2054] [INFO] Booting worker with pid: 2054
+[2024-03-26 12:01:58 +0500] [2055] [INFO] Booting worker with pid: 2055
+[2024-03-26 12:02:03 +0500] [1997] [INFO] Handling signal: term
+[2024-03-26 12:02:03 +0500] [2051] [INFO] Worker exiting (pid: 2051)
+[2024-03-26 12:02:03 +0500] [2055] [INFO] Worker exiting (pid: 2055)
+[2024-03-26 12:02:03 +0500] [2054] [INFO] Worker exiting (pid: 2054)
+[2024-03-26 12:02:03 +0500] [2052] [INFO] Worker exiting (pid: 2052)
+[2024-03-26 12:02:03 +0500] [2053] [INFO] Worker exiting (pid: 2053)
+[2024-03-26 12:02:04 +0500] [1997] [INFO] Shutting down: Master
+[2024-03-26 12:02:39 +0500] [949] [INFO] Starting gunicorn 20.1.0
+[2024-03-26 12:02:39 +0500] [949] [INFO] Listening at: http://127.0.0.1:8000 (949)
+[2024-03-26 12:02:39 +0500] [949] [INFO] Using worker: sync
+[2024-03-26 12:02:39 +0500] [1061] [INFO] Booting worker with pid: 1061
+[2024-03-26 12:02:39 +0500] [1062] [INFO] Booting worker with pid: 1062
+[2024-03-26 12:02:39 +0500] [1063] [INFO] Booting worker with pid: 1063
+[2024-03-26 12:02:39 +0500] [1065] [INFO] Booting worker with pid: 1065
+[2024-03-26 12:02:39 +0500] [1071] [INFO] Booting worker with pid: 1071
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-26 12:26:17 +0500] [949] [INFO] Handling signal: term
+[2024-03-26 12:26:17 +0500] [1065] [INFO] Worker exiting (pid: 1065)
+[2024-03-26 12:26:17 +0500] [1061] [INFO] Worker exiting (pid: 1061)
+[2024-03-26 12:26:17 +0500] [1071] [INFO] Worker exiting (pid: 1071)
+[2024-03-26 12:26:17 +0500] [1062] [INFO] Worker exiting (pid: 1062)
+[2024-03-26 12:26:17 +0500] [1063] [INFO] Worker exiting (pid: 1063)
+[2024-03-26 12:26:18 +0500] [949] [INFO] Shutting down: Master
+[2024-03-26 12:26:53 +0500] [969] [INFO] Starting gunicorn 20.1.0
+[2024-03-26 12:26:53 +0500] [969] [INFO] Listening at: http://127.0.0.1:8000 (969)
+[2024-03-26 12:26:53 +0500] [969] [INFO] Using worker: sync
+[2024-03-26 12:26:53 +0500] [1049] [INFO] Booting worker with pid: 1049
+[2024-03-26 12:26:53 +0500] [1050] [INFO] Booting worker with pid: 1050
+[2024-03-26 12:26:53 +0500] [1051] [INFO] Booting worker with pid: 1051
+[2024-03-26 12:26:53 +0500] [1057] [INFO] Booting worker with pid: 1057
+[2024-03-26 12:26:53 +0500] [1058] [INFO] Booting worker with pid: 1058
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-26 13:45:32 +0500] [969] [CRITICAL] WORKER TIMEOUT (pid:1049)
+[2024-03-26 13:45:32 +0500] [969] [CRITICAL] WORKER TIMEOUT (pid:1050)
+[2024-03-26 13:45:32 +0500] [969] [CRITICAL] WORKER TIMEOUT (pid:1051)
+[2024-03-26 13:45:32 +0500] [969] [CRITICAL] WORKER TIMEOUT (pid:1057)
+[2024-03-26 13:45:32 +0500] [969] [CRITICAL] WORKER TIMEOUT (pid:1058)
+[2024-03-26 13:45:32 +0500] [1058] [INFO] Worker exiting (pid: 1058)
+[2024-03-26 13:45:32 +0500] [1049] [INFO] Worker exiting (pid: 1049)
+[2024-03-26 13:45:32 +0500] [1051] [INFO] Worker exiting (pid: 1051)
+[2024-03-26 13:45:32 +0500] [1057] [INFO] Worker exiting (pid: 1057)
+[2024-03-26 13:45:32 +0500] [1050] [INFO] Worker exiting (pid: 1050)
+[2024-03-26 13:45:33 +0500] [969] [WARNING] Worker with pid 1058 was terminated due to signal 9
+[2024-03-26 13:45:33 +0500] [969] [WARNING] Worker with pid 1049 was terminated due to signal 9
+[2024-03-26 13:45:33 +0500] [1785] [INFO] Booting worker with pid: 1785
+[2024-03-26 13:45:33 +0500] [969] [WARNING] Worker with pid 1057 was terminated due to signal 9
+[2024-03-26 13:45:33 +0500] [969] [WARNING] Worker with pid 1050 was terminated due to signal 9
+[2024-03-26 13:45:33 +0500] [969] [WARNING] Worker with pid 1051 was terminated due to signal 9
+[2024-03-26 13:45:33 +0500] [1787] [INFO] Booting worker with pid: 1787
+[2024-03-26 13:45:33 +0500] [1788] [INFO] Booting worker with pid: 1788
+[2024-03-26 13:45:33 +0500] [1789] [INFO] Booting worker with pid: 1789
+[2024-03-26 13:45:33 +0500] [1790] [INFO] Booting worker with pid: 1790
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-26 18:33:34 +0500] [969] [INFO] Handling signal: term
+[2024-03-26 18:33:34 +0500] [1790] [INFO] Worker exiting (pid: 1790)
+[2024-03-26 18:33:34 +0500] [1785] [INFO] Worker exiting (pid: 1785)
+[2024-03-26 18:33:34 +0500] [1787] [INFO] Worker exiting (pid: 1787)
+[2024-03-26 18:33:34 +0500] [1788] [INFO] Worker exiting (pid: 1788)
+[2024-03-26 18:33:34 +0500] [1789] [INFO] Worker exiting (pid: 1789)
+[2024-03-26 18:33:35 +0500] [969] [INFO] Shutting down: Master
+[2024-03-27 17:14:06 +0500] [932] [INFO] Starting gunicorn 20.1.0
+[2024-03-27 17:14:06 +0500] [932] [INFO] Listening at: http://127.0.0.1:8000 (932)
+[2024-03-27 17:14:06 +0500] [932] [INFO] Using worker: sync
+[2024-03-27 17:14:06 +0500] [1082] [INFO] Booting worker with pid: 1082
+[2024-03-27 17:14:06 +0500] [1089] [INFO] Booting worker with pid: 1089
+[2024-03-27 17:14:06 +0500] [1091] [INFO] Booting worker with pid: 1091
+[2024-03-27 17:14:06 +0500] [1092] [INFO] Booting worker with pid: 1092
+[2024-03-27 17:14:06 +0500] [1093] [INFO] Booting worker with pid: 1093
+[2024-03-27 18:13:29 +0500] [932] [INFO] Handling signal: term
+[2024-03-27 18:13:29 +0500] [1082] [INFO] Worker exiting (pid: 1082)
+[2024-03-27 18:13:29 +0500] [1091] [INFO] Worker exiting (pid: 1091)
+[2024-03-27 18:13:29 +0500] [1089] [INFO] Worker exiting (pid: 1089)
+[2024-03-27 18:13:29 +0500] [1092] [INFO] Worker exiting (pid: 1092)
+[2024-03-27 18:13:29 +0500] [1093] [INFO] Worker exiting (pid: 1093)
+[2024-03-27 18:13:32 +0500] [932] [INFO] Shutting down: Master
+[2024-03-27 18:17:48 +0500] [926] [INFO] Starting gunicorn 20.1.0
+[2024-03-27 18:17:48 +0500] [926] [INFO] Listening at: http://127.0.0.1:8000 (926)
+[2024-03-27 18:17:48 +0500] [926] [INFO] Using worker: sync
+[2024-03-27 18:17:48 +0500] [1085] [INFO] Booting worker with pid: 1085
+[2024-03-27 18:17:48 +0500] [1084] [INFO] Booting worker with pid: 1084
+[2024-03-27 18:17:48 +0500] [1086] [INFO] Booting worker with pid: 1086
+[2024-03-27 18:17:48 +0500] [1092] [INFO] Booting worker with pid: 1092
+[2024-03-27 18:17:48 +0500] [1094] [INFO] Booting worker with pid: 1094
+[2024-03-27 18:27:40 +0500] [926] [INFO] Handling signal: term
+[2024-03-27 18:27:40 +0500] [1086] [INFO] Worker exiting (pid: 1086)
+[2024-03-27 18:27:40 +0500] [1085] [INFO] Worker exiting (pid: 1085)
+[2024-03-27 18:27:40 +0500] [1092] [INFO] Worker exiting (pid: 1092)
+[2024-03-27 18:27:40 +0500] [1094] [INFO] Worker exiting (pid: 1094)
+[2024-03-27 18:27:40 +0500] [1084] [INFO] Worker exiting (pid: 1084)
+[2024-03-27 18:27:41 +0500] [926] [INFO] Shutting down: Master
+[2024-03-28 09:36:58 +0500] [923] [INFO] Starting gunicorn 20.1.0
+[2024-03-28 09:36:58 +0500] [923] [INFO] Listening at: http://127.0.0.1:8000 (923)
+[2024-03-28 09:36:58 +0500] [923] [INFO] Using worker: sync
+[2024-03-28 09:36:58 +0500] [1060] [INFO] Booting worker with pid: 1060
+[2024-03-28 09:36:58 +0500] [1061] [INFO] Booting worker with pid: 1061
+[2024-03-28 09:36:58 +0500] [1062] [INFO] Booting worker with pid: 1062
+[2024-03-28 09:36:58 +0500] [1063] [INFO] Booting worker with pid: 1063
+[2024-03-28 09:36:59 +0500] [1064] [INFO] Booting worker with pid: 1064
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-28 11:00:28 +0500] [923] [INFO] Handling signal: term
+[2024-03-28 11:00:28 +0500] [1061] [INFO] Worker exiting (pid: 1061)
+[2024-03-28 11:00:28 +0500] [1062] [INFO] Worker exiting (pid: 1062)
+[2024-03-28 11:00:28 +0500] [1063] [INFO] Worker exiting (pid: 1063)
+[2024-03-28 11:00:28 +0500] [1064] [INFO] Worker exiting (pid: 1064)
+[2024-03-28 11:00:28 +0500] [1060] [INFO] Worker exiting (pid: 1060)
+[2024-03-28 11:00:29 +0500] [923] [INFO] Shutting down: Master
+[2024-03-28 11:02:01 +0500] [933] [INFO] Starting gunicorn 20.1.0
+[2024-03-28 11:02:01 +0500] [933] [INFO] Listening at: http://127.0.0.1:8000 (933)
+[2024-03-28 11:02:01 +0500] [933] [INFO] Using worker: sync
+[2024-03-28 11:02:01 +0500] [1062] [INFO] Booting worker with pid: 1062
+[2024-03-28 11:02:01 +0500] [1063] [INFO] Booting worker with pid: 1063
+[2024-03-28 11:02:01 +0500] [1064] [INFO] Booting worker with pid: 1064
+[2024-03-28 11:02:01 +0500] [1065] [INFO] Booting worker with pid: 1065
+[2024-03-28 11:02:01 +0500] [1066] [INFO] Booting worker with pid: 1066
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-28 11:56:58 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1062)
+[2024-03-28 11:56:58 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1063)
+[2024-03-28 11:56:58 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1064)
+[2024-03-28 11:56:58 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1065)
+[2024-03-28 11:56:58 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1066)
+[2024-03-28 11:56:58 +0500] [1063] [INFO] Worker exiting (pid: 1063)
+[2024-03-28 11:56:58 +0500] [1064] [INFO] Worker exiting (pid: 1064)
+[2024-03-28 11:56:58 +0500] [1062] [INFO] Worker exiting (pid: 1062)
+[2024-03-28 11:56:58 +0500] [1065] [INFO] Worker exiting (pid: 1065)
+[2024-03-28 11:56:58 +0500] [1066] [INFO] Worker exiting (pid: 1066)
+[2024-03-28 11:56:59 +0500] [933] [WARNING] Worker with pid 1066 was terminated due to signal 9
+[2024-03-28 11:56:59 +0500] [933] [WARNING] Worker with pid 1065 was terminated due to signal 9
+[2024-03-28 11:56:59 +0500] [1814] [INFO] Booting worker with pid: 1814
+[2024-03-28 11:56:59 +0500] [933] [WARNING] Worker with pid 1063 was terminated due to signal 9
+[2024-03-28 11:56:59 +0500] [933] [WARNING] Worker with pid 1064 was terminated due to signal 9
+[2024-03-28 11:56:59 +0500] [1815] [INFO] Booting worker with pid: 1815
+[2024-03-28 11:56:59 +0500] [933] [WARNING] Worker with pid 1062 was terminated due to signal 9
+[2024-03-28 11:56:59 +0500] [1816] [INFO] Booting worker with pid: 1816
+[2024-03-28 11:57:00 +0500] [1817] [INFO] Booting worker with pid: 1817
+[2024-03-28 11:57:00 +0500] [1818] [INFO] Booting worker with pid: 1818
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-28 14:08:59 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1814)
+[2024-03-28 14:09:00 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1815)
+[2024-03-28 14:09:00 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1816)
+[2024-03-28 14:09:00 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1817)
+[2024-03-28 14:09:00 +0500] [933] [CRITICAL] WORKER TIMEOUT (pid:1818)
+[2024-03-28 14:09:00 +0500] [1814] [INFO] Worker exiting (pid: 1814)
+[2024-03-28 14:09:00 +0500] [1818] [INFO] Worker exiting (pid: 1818)
+[2024-03-28 14:09:00 +0500] [1817] [INFO] Worker exiting (pid: 1817)
+[2024-03-28 14:09:00 +0500] [1816] [INFO] Worker exiting (pid: 1816)
+[2024-03-28 14:09:00 +0500] [1815] [INFO] Worker exiting (pid: 1815)
+[2024-03-28 14:09:01 +0500] [933] [WARNING] Worker with pid 1818 was terminated due to signal 9
+[2024-03-28 14:09:01 +0500] [933] [WARNING] Worker with pid 1814 was terminated due to signal 9
+[2024-03-28 14:09:02 +0500] [933] [WARNING] Worker with pid 1817 was terminated due to signal 9
+[2024-03-28 14:09:02 +0500] [933] [WARNING] Worker with pid 1816 was terminated due to signal 9
+[2024-03-28 14:09:02 +0500] [2364] [INFO] Booting worker with pid: 2364
+[2024-03-28 14:09:02 +0500] [933] [WARNING] Worker with pid 1815 was terminated due to signal 9
+[2024-03-28 14:09:02 +0500] [2365] [INFO] Booting worker with pid: 2365
+[2024-03-28 14:09:03 +0500] [2366] [INFO] Booting worker with pid: 2366
+[2024-03-28 14:09:03 +0500] [2367] [INFO] Booting worker with pid: 2367
+[2024-03-28 14:09:03 +0500] [2368] [INFO] Booting worker with pid: 2368
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+[2024-03-28 15:15:01 +0500] [933] [INFO] Handling signal: term
+[2024-03-28 15:15:01 +0500] [2365] [INFO] Worker exiting (pid: 2365)
+[2024-03-28 15:15:01 +0500] [2364] [INFO] Worker exiting (pid: 2364)
+[2024-03-28 15:15:01 +0500] [2368] [INFO] Worker exiting (pid: 2368)
+[2024-03-28 15:15:01 +0500] [2367] [INFO] Worker exiting (pid: 2367)
+[2024-03-28 15:15:01 +0500] [2366] [INFO] Worker exiting (pid: 2366)
+[2024-03-28 15:15:05 +0500] [933] [INFO] Shutting down: Master
+[2024-04-01 16:58:18 +0500] [903] [INFO] Starting gunicorn 20.1.0
+[2024-04-01 16:58:18 +0500] [903] [INFO] Listening at: http://127.0.0.1:8000 (903)
+[2024-04-01 16:58:18 +0500] [903] [INFO] Using worker: sync
+[2024-04-01 16:58:18 +0500] [1164] [INFO] Booting worker with pid: 1164
+[2024-04-01 16:58:19 +0500] [1165] [INFO] Booting worker with pid: 1165
+[2024-04-01 16:58:19 +0500] [1167] [INFO] Booting worker with pid: 1167
+[2024-04-01 16:58:19 +0500] [1168] [INFO] Booting worker with pid: 1168
+[2024-04-01 16:58:19 +0500] [1169] [INFO] Booting worker with pid: 1169
+[2024-04-01 16:58:51 +0500] [903] [INFO] Handling signal: term
+[2024-04-01 16:58:51 +0500] [1164] [INFO] Worker exiting (pid: 1164)
+[2024-04-01 16:58:51 +0500] [1168] [INFO] Worker exiting (pid: 1168)
+[2024-04-01 16:58:51 +0500] [1165] [INFO] Worker exiting (pid: 1165)
+[2024-04-01 16:58:51 +0500] [1167] [INFO] Worker exiting (pid: 1167)
+[2024-04-01 16:58:51 +0500] [1169] [INFO] Worker exiting (pid: 1169)
+[2024-04-01 16:58:52 +0500] [903] [INFO] Shutting down: Master
+[2024-05-08 12:56:11 +0500] [890] [INFO] Starting gunicorn 20.1.0
+[2024-05-08 12:56:11 +0500] [890] [INFO] Listening at: http://127.0.0.1:8000 (890)
+[2024-05-08 12:56:11 +0500] [890] [INFO] Using worker: sync
+[2024-05-08 12:56:11 +0500] [1447] [INFO] Booting worker with pid: 1447
+[2024-05-08 12:56:11 +0500] [1448] [INFO] Booting worker with pid: 1448
+[2024-05-08 12:56:11 +0500] [1449] [INFO] Booting worker with pid: 1449
+[2024-05-08 12:56:11 +0500] [1450] [INFO] Booting worker with pid: 1450
+[2024-05-08 12:56:12 +0500] [1451] [INFO] Booting worker with pid: 1451
+[2024-05-08 14:13:57 +0500] [890] [CRITICAL] WORKER TIMEOUT (pid:1447)
+[2024-05-08 14:13:57 +0500] [890] [CRITICAL] WORKER TIMEOUT (pid:1448)
+[2024-05-08 14:13:57 +0500] [1448] [INFO] Worker exiting (pid: 1448)
+[2024-05-08 14:13:57 +0500] [1447] [INFO] Worker exiting (pid: 1447)
+[2024-05-08 14:13:58 +0500] [890] [WARNING] Worker with pid 1448 was terminated due to signal 9
+[2024-05-08 14:13:58 +0500] [21072] [INFO] Booting worker with pid: 21072
+[2024-05-08 14:14:01 +0500] [21075] [INFO] Booting worker with pid: 21075

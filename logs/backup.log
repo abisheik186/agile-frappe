@@ -1,0 +1,30 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _b0e9cd2c0906ed69 -p********** _b0e9cd2c0906ed69 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./frappe.com/private/backups/20221123_183002-frappe_com-database.sql.gz
+
+Backup Summary for frappe.com at 2022-11-23 18:30:05.326205
+Config  : ./frappe.com/private/backups/20221123_183002-frappe_com-site_config_backup.json 182.0B
+Database: ./frappe.com/private/backups/20221123_183002-frappe_com-database.sql.gz         1.2MiB
+Backup for Site frappe.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _b0e9cd2c0906ed69 -p********** _b0e9cd2c0906ed69 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./frappe.com/private/backups/20240326_123004-frappe_com-database.sql.gz
+
+Backup Summary for frappe.com at 2024-03-26 12:30:09.441629
+Config  : ./frappe.com/private/backups/20240326_123004-frappe_com-site_config_backup.json 182.0B
+Database: ./frappe.com/private/backups/20240326_123004-frappe_com-database.sql.gz         1.3MiB
+Backup for Site frappe.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _b0e9cd2c0906ed69 -p********** _b0e9cd2c0906ed69 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./frappe.com/private/backups/20240326_183004-frappe_com-database.sql.gz
+
+Backup Summary for frappe.com at 2024-03-26 18:31:42.033317
+Config  : ./frappe.com/private/backups/20240326_183004-frappe_com-site_config_backup.json 182.0B
+Database: ./frappe.com/private/backups/20240326_183004-frappe_com-database.sql.gz         48.9MiB
+Backup for Site frappe.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _b0e9cd2c0906ed69 -p********** _b0e9cd2c0906ed69 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./frappe.com/private/backups/20240327_183004-frappe_com-database.sql.gz
+
+Backup Summary for frappe.com at 2024-03-27 18:31:48.046565
+Config  : ./frappe.com/private/backups/20240327_183004-frappe_com-site_config_backup.json 182.0B
+Database: ./frappe.com/private/backups/20240327_183004-frappe_com-database.sql.gz         48.9MiB
+Backup for Site frappe.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _b0e9cd2c0906ed69 -p********** _b0e9cd2c0906ed69 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./frappe.com/private/backups/20240328_123004-frappe_com-database.sql.gz
+
+Backup Summary for frappe.com at 2024-03-28 12:31:15.696464
+Config  : ./frappe.com/private/backups/20240328_123004-frappe_com-site_config_backup.json 182.0B
+Database: ./frappe.com/private/backups/20240328_123004-frappe_com-database.sql.gz         48.9MiB
+Backup for Site frappe.com has been successfully completed

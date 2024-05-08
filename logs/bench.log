@@ -1,0 +1,157 @@
+2022-11-23 17:30:03,631 DEBUG cd frappe-bench && python3 -m venv env
+2022-11-23 17:30:06,334 DEBUG cd frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-11-23 17:30:11,596 LOG Getting frappe
+2022-11-23 17:30:11,596 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2022-11-23 17:30:25,912 LOG Installing frappe
+2022-11-23 17:30:25,912 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/frappe 
+2022-11-23 17:32:44,164 DEBUG cd /home/frappe/frappe-bench/apps/frappe && yarn install
+2022-11-23 17:33:38,479 DEBUG cd frappe-bench && bench build
+2022-11-23 17:33:38,675 INFO /usr/local/bin/bench build
+2022-11-23 17:33:57,767 LOG setting up backups
+2022-11-23 17:33:57,823 LOG backups were set up
+2022-11-23 17:33:57,823 INFO Bench frappe-bench initialized
+2022-11-23 17:34:56,131 INFO /usr/local/bin/bench new-site frappe.com
+2022-11-23 17:36:43,179 INFO /usr/local/bin/bench get-app payments
+2022-11-23 17:36:43,981 LOG Getting payments
+2022-11-23 17:36:43,982 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-11-23 17:36:45,727 LOG Installing payments
+2022-11-23 17:36:45,831 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/payments 
+2022-11-23 17:36:50,667 DEBUG bench build --app payments
+2022-11-23 17:36:50,754 INFO /usr/local/bin/bench build --app payments
+2022-11-23 17:37:02,503 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2022-11-23 17:37:03,287 LOG Getting erpnext
+2022-11-23 17:37:03,287 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-11-23 17:37:13,457 LOG Installing erpnext
+2022-11-23 17:37:13,565 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/erpnext 
+2022-11-23 17:37:48,792 DEBUG cd /home/frappe/frappe-bench/apps/erpnext && yarn install
+2022-11-23 17:37:52,068 DEBUG bench build --app erpnext
+2022-11-23 17:37:52,162 INFO /usr/local/bin/bench build --app erpnext
+2022-11-23 17:38:43,830 INFO /usr/local/bin/bench get-app hrms
+2022-11-23 17:38:44,578 LOG Getting hrms
+2022-11-23 17:38:44,578 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-11-23 17:38:47,054 LOG Installing hrms
+2022-11-23 17:38:47,188 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/hrms 
+2022-11-23 17:38:49,603 DEBUG bench build --app hrms
+2022-11-23 17:38:49,687 INFO /usr/local/bin/bench build --app hrms
+2022-11-23 17:39:24,847 INFO /usr/local/bin/bench --site frappe.com install-app erpnext
+2022-11-23 17:41:39,785 INFO /usr/local/bin/bench --site frappe.com install-app erpnext
+2022-11-23 17:41:54,841 INFO /usr/local/bin/bench --site frappe.com install-app hrms
+2022-11-23 17:42:36,139 INFO /usr/local/bin/bench start
+2022-11-23 17:42:36,671 INFO /usr/local/bin/bench schedule
+2022-11-23 17:42:36,693 INFO /usr/local/bin/bench worker --queue long
+2022-11-23 17:42:36,705 INFO /usr/local/bin/bench serve --port 8000
+2022-11-23 17:42:36,711 INFO /usr/local/bin/bench worker --queue default
+2022-11-23 17:42:36,725 INFO /usr/local/bin/bench watch
+2022-11-23 17:42:36,766 INFO /usr/local/bin/bench worker --queue short
+2022-11-23 17:42:54,227 INFO /usr/local/bin/bench use frappe.com
+2022-11-23 17:42:58,245 INFO /usr/local/bin/bench start
+2022-11-23 17:42:58,648 INFO /usr/local/bin/bench worker --queue long
+2022-11-23 17:42:58,652 INFO /usr/local/bin/bench worker --queue short
+2022-11-23 17:42:58,806 INFO /usr/local/bin/bench serve --port 8000
+2022-11-23 17:42:58,813 INFO /usr/local/bin/bench watch
+2022-11-23 17:42:58,829 INFO /usr/local/bin/bench worker --queue default
+2022-11-23 17:42:58,954 INFO /usr/local/bin/bench schedule
+2022-11-23 17:46:59,921 INFO /usr/local/bin/bench --site frappe.com enable-scheduler
+2022-11-23 17:47:18,110 INFO /usr/local/bin/bench --site frappe.com set-maintenance-mode off
+2022-11-23 17:47:37,190 INFO /usr/local/bin/bench setup production frappe
+2022-11-23 17:47:37,215 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2022-11-23 17:48:11,011 DEBUG bench setup role fail2ban
+2022-11-23 17:48:11,099 INFO /usr/local/bin/bench setup role fail2ban
+2022-11-23 17:48:33,062 DEBUG bench setup role nginx
+2022-11-23 17:48:33,150 INFO /usr/local/bin/bench setup role nginx
+2022-11-23 17:48:53,921 DEBUG bench setup role supervisor
+2022-11-23 17:48:54,007 INFO /usr/local/bin/bench setup role supervisor
+2022-11-23 17:49:05,205 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-11-23 17:49:05,206 LOG Updated supervisord.conf: 'chown' changed from '' to 'frappe:frappe'
+2022-11-23 17:49:05,310 DEBUG sudo /usr/sbin/nginx -t
+2022-11-23 17:49:05,345 DEBUG sudo systemctl reload nginx
+2022-11-23 17:49:20,981 INFO /usr/local/bin/bench setup production frappe
+2022-11-23 17:49:20,987 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-11-23 17:49:20,987 LOG Updated supervisord.conf: 'chown' changed from '' to 'frappe:frappe'
+2022-11-23 17:49:25,027 DEBUG /usr/bin/supervisorctl reread
+2022-11-23 17:49:25,196 DEBUG /usr/bin/supervisorctl update
+2022-11-23 17:49:25,426 DEBUG sudo /usr/sbin/nginx -t
+2022-11-23 17:49:25,452 DEBUG sudo systemctl reload nginx
+2022-11-23 17:49:25,661 INFO /usr/local/bin/bench schedule
+2022-11-23 17:49:25,708 INFO /usr/local/bin/bench worker --queue long
+2022-11-23 17:49:25,839 INFO /usr/local/bin/bench worker --queue short
+2022-11-23 17:49:25,876 INFO /usr/local/bin/bench worker --queue default
+2022-11-23 17:50:47,778 INFO /usr/local/bin/bench --site frappe.com reinstall --force
+2022-11-23 17:50:55,006 INFO /usr/local/bin/bench --site frappe.com reinstall
+2022-11-23 18:00:01,223 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-23 18:04:02,368 INFO /usr/local/bin/bench worker --queue short
+2022-11-23 18:04:02,368 INFO /usr/local/bin/bench schedule
+2022-11-23 18:04:02,369 INFO /usr/local/bin/bench worker --queue long
+2022-11-23 18:04:02,369 INFO /usr/local/bin/bench worker --queue default
+2022-11-23 18:05:09,604 INFO /usr/local/bin/bench worker --queue default
+2022-11-23 18:05:09,637 INFO /usr/local/bin/bench worker --queue short
+2022-11-23 18:05:09,637 INFO /usr/local/bin/bench schedule
+2022-11-23 18:05:09,659 INFO /usr/local/bin/bench worker --queue long
+2022-11-23 18:10:50,609 INFO /usr/local/bin/bench worker --queue default
+2022-11-23 18:10:50,609 INFO /usr/local/bin/bench schedule
+2022-11-23 18:10:50,610 INFO /usr/local/bin/bench worker --queue long
+2022-11-23 18:10:50,610 INFO /usr/local/bin/bench worker --queue short
+2024-03-26 11:48:19,437 INFO /usr/local/bin/bench worker --queue default
+2024-03-26 11:48:19,437 INFO /usr/local/bin/bench schedule
+2024-03-26 11:48:19,438 INFO /usr/local/bin/bench worker --queue long
+2024-03-26 11:48:19,512 INFO /usr/local/bin/bench worker --queue short
+2024-03-26 11:55:08,990 INFO /usr/local/bin/bench get-app --branch version-14 https://github.com/frappe/healthcare
+2024-03-26 11:55:09,020 LOG Getting healthcare
+2024-03-26 11:55:09,022 DEBUG cd ./apps && git clone https://github.com/frappe/healthcare --branch version-14 --depth 1 --origin upstream
+2024-03-26 11:55:10,820 LOG Installing healthcare
+2024-03-26 11:55:11,324 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/healthcare 
+2024-03-26 11:55:26,968 DEBUG bench build --app healthcare
+2024-03-26 11:55:27,231 INFO /usr/local/bin/bench build --app healthcare
+2024-03-26 11:55:35,055 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe:
+2024-03-26 11:55:35,612 WARNING cd /home/frappe/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2024-03-26 11:55:35,614 WARNING /usr/local/bin/bench get-app --branch version-14 https://github.com/frappe/healthcare executed with exit code 1
+2024-03-26 11:55:36,219 INFO A newer version of bench is available: 5.14.4 → 5.22.3
+2024-03-26 11:55:38,232 INFO /usr/local/bin/bench schedule
+2024-03-26 11:56:36,096 INFO /usr/local/bin/bench --site frappe.com install-app healthcare
+2024-03-26 11:57:52,277 INFO /usr/local/bin/bench --site frappe.com migrate
+2024-03-26 11:58:42,341 INFO /usr/local/bin/bench --site frappe.com clear-cache
+2024-03-26 11:58:57,178 INFO /usr/local/bin/bench --site frappe.com build
+2024-03-26 12:00:01,473 INFO /usr/local/bin/bench --verbose --site all backup
+2024-03-26 12:01:52,998 INFO /usr/local/bin/bench worker --queue long
+2024-03-26 12:01:53,014 INFO /usr/local/bin/bench schedule
+2024-03-26 12:01:53,059 INFO /usr/local/bin/bench worker --queue default
+2024-03-26 12:01:53,147 INFO /usr/local/bin/bench worker --queue short
+2024-03-26 12:02:31,810 INFO /usr/local/bin/bench worker --queue short
+2024-03-26 12:02:31,818 INFO /usr/local/bin/bench worker --queue long
+2024-03-26 12:02:31,821 INFO /usr/local/bin/bench schedule
+2024-03-26 12:02:31,829 INFO /usr/local/bin/bench worker --queue default
+2024-03-26 12:15:56,200 INFO /usr/local/bin/bench -site -force restore erp_latest_07032024.sql
+2024-03-26 12:17:17,874 INFO /usr/local/bin/bench -site frappe.com -force restore erp_latest_07032024.sql
+2024-03-26 12:17:38,347 INFO /usr/local/bin/bench --site frappe.com --force restore erp_latest_07032024.sql
+2024-03-26 12:26:46,839 INFO /usr/local/bin/bench schedule
+2024-03-26 12:26:46,844 INFO /usr/local/bin/bench worker --queue long
+2024-03-26 12:26:46,857 INFO /usr/local/bin/bench worker --queue short
+2024-03-26 12:26:46,917 INFO /usr/local/bin/bench worker --queue default
+2024-03-26 15:28:06,912 INFO /usr/local/bin/bench start
+2024-03-26 18:00:01,756 INFO /usr/local/bin/bench --verbose --site all backup
+2024-03-27 17:13:46,265 INFO /usr/local/bin/bench worker --queue default
+2024-03-27 17:13:46,269 INFO /usr/local/bin/bench worker --queue long
+2024-03-27 17:13:46,306 INFO /usr/local/bin/bench worker --queue short
+2024-03-27 17:13:46,349 INFO /usr/local/bin/bench schedule
+2024-03-27 18:00:01,901 INFO /usr/local/bin/bench --verbose --site all backup
+2024-03-27 18:17:18,310 INFO /usr/local/bin/bench worker --queue long
+2024-03-27 18:17:18,388 INFO /usr/local/bin/bench worker --queue short
+2024-03-27 18:17:18,433 INFO /usr/local/bin/bench worker --queue default
+2024-03-27 18:17:18,513 INFO /usr/local/bin/bench schedule
+2024-03-28 09:36:46,846 INFO /usr/local/bin/bench worker --queue default
+2024-03-28 09:36:46,869 INFO /usr/local/bin/bench worker --queue short
+2024-03-28 09:36:46,967 INFO /usr/local/bin/bench worker --queue long
+2024-03-28 09:36:47,059 INFO /usr/local/bin/bench schedule
+2024-03-28 11:01:50,075 INFO /usr/local/bin/bench worker --queue default
+2024-03-28 11:01:50,082 INFO /usr/local/bin/bench worker --queue long
+2024-03-28 11:01:50,076 INFO /usr/local/bin/bench worker --queue short
+2024-03-28 11:01:50,081 INFO /usr/local/bin/bench schedule
+2024-03-28 12:00:02,149 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-01 16:57:51,685 INFO /usr/local/bin/bench schedule
+2024-04-01 16:57:51,687 INFO /usr/local/bin/bench worker --queue short
+2024-04-01 16:57:51,714 INFO /usr/local/bin/bench worker --queue long
+2024-04-01 16:57:53,255 INFO /usr/local/bin/bench worker --queue default
+2024-05-08 12:55:33,165 INFO /usr/local/bin/bench worker --queue short
+2024-05-08 12:55:33,166 INFO /usr/local/bin/bench schedule
+2024-05-08 12:55:33,169 INFO /usr/local/bin/bench worker --queue default
+2024-05-08 12:55:33,189 INFO /usr/local/bin/bench worker --queue long
